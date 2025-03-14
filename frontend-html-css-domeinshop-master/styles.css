@@ -36,16 +36,19 @@ Table of Contents:
 }
 
 
-/*body {*/
-/*    background-color: #899CA0;*/
-/*}*/
+body {
+    font-family: Poppins;
+    background-color: #899CA0;
+}
 
 
 
 /*////////////////////////
     2. Typography
 ////////////////////////*/
-
+.center {
+    text-align: center;
+}
 
 
 /*////////////////////////
