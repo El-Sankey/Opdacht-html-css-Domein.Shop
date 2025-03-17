@@ -154,6 +154,15 @@ details[open] summary {
 
 /*///////////// 3.5 Footer /////////////*/
 
-.footer-p {
+.footer{
+    background-color: #1C2B32;
+    height: 40px;
+    padding: 50px;
     text-align: center;
+    
 }
+
+.footer-p {
+    color: white;
+}
+
