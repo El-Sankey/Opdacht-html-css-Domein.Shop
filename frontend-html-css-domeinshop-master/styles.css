@@ -1,13 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-
-/*.center {*/
-/*    text-align: center;*/
-/*    image-position: absolute;*/
-/*    margin-top: auto;*/
-/*    margin-bottom: auto;*/
-/*    position: absolute;*/
-}
 /*////////////////////////////////////////////////////////////////////////
 Table of Contents:
     1. Global Styles
@@ -36,37 +28,16 @@ Table of Contents:
 }
 
 
-body {
-    font-family: Poppins;
-    background-color: #899CA0;
-}
-
-main {
-    max-width: 1000px;
-}
 
 /*////////////////////////
     2. Typography
 ////////////////////////*/
-
-h1 {
-    text-align: center;
-    font-size: 98px;
-    position: absolute;
-    top: 140px;
-    right: 330px;
+body {
+    font-family: Poppins, sans-serif;
+    background-color: white;
 }
+.main {
 
-p.check-domian {
-    text-align: center;
-}
-
-label.check-domian {
-    text-align: center;
-}
-
-.button-check-domian {
-    text-align: center;
 }
 
 /*////////////////////////
@@ -76,25 +47,113 @@ label.check-domian {
 
 
 /*///////////// 3.1 Header /////////////*/
-
-
-.check-domian {
-    background-image: url("./assets/images/mountains.jpg");
+.header-elements img {
+    position: relative;
+    max-width: 99.96%;
+}
+.header-h1 {
+    font-size: 90px;
     position: absolute;
-    margin: 0%;
-    padding: 0%;
+    text-align: center;
+    top: 208px;
+    right: 395px;
+}
+
+.header-p {
+    font-size: 12px;
+    position: absolute;
+    top: 340px;
+    right: 550px;
+}
+
+.input-check- {
+    position: absolute;
+    background-color: transparent;
+    border: 2px solid black;
+    border-radius: 30px 0 0 30px;
+    top: 380px;
+    right: 640px;
+    width: 280px;
+    /*height: 60px;*/
+    margin: 0;
+    padding: 20px;
+}
+
+.button-check-domian {
+    position: absolute;
+    color: white;
+    background-color: #1C2B32;
+    border-radius: 0 30px 30px 0;
+    top: 380px;
+    right: 475px;
+    width: 190px;
+    height: 60px;
+    margin: 0;
+    padding: 5px;
 }
 
 /*///////////// 3.2 Testimonial /////////////*/
+
+.quotes {
+    box-shadow: 0px 1px 35px 0px;
+    width: 900px;
+    height: 230px;
+    margin: 50px;
+    padding: 30px;
+    border: 1px solid lightgrey;
+    mso-border-shadow: yes;
+    border-radius: 10px 10px 10px 10px;
+
+}
+.quotes-p {
+    text-align: center;
+}
+
+.shadow {
+    box-shadow: 10px 10px 1px 1px;
+}
 
 
 
 /*///////////// 3.3 Support /////////////*/
 
+.callcenter-img {
+    /*align-items: center;*/
+    width: 900px;
+    height: 500px;
+    margin: auto;
+    padding: 25px;
+    right: 300px;
+}
+
+figcaption {
+     text-align: center;
+}
+
+.support-button {
+    color: white;
+    background-color: #1C2B32;
+    border-radius: 25px 25px 25px 25px;
+    margin: 15px;
+    padding: 15px;
+}
 
 
 /*///////////// 3.4 Faq /////////////*/
 
+details[open] {
+    padding: 5px;
+}
+
+details[open] summary {
+    padding: 0.5em;
+    border-bottom: 1px solid #aaa;
+    margin-bottom: 5px;
+}
 
 
 /*///////////// 3.5 Footer /////////////*/
+
+.footer-p {
+    text-align: center;
+}
