@@ -95,16 +95,20 @@ body {
 /*///////////// 3.2 Testimonial /////////////*/
 
 .quotes {
-    box-shadow: 0px 1px 35px 0px;
+    box-shadow: 0.5px 0.5px 25px 15px rgba(0,0,0,0.10);
     width: 900px;
     height: 230px;
     margin: 50px;
+    margin-left: 250px;
     padding: 30px;
-    border: 1px solid lightgrey;
-    mso-border-shadow: yes;
     border-radius: 10px 10px 10px 10px;
-
 }
+
+.avatar-img{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
 .quotes-p {
     text-align: center;
 }
@@ -119,15 +123,19 @@ body {
 
 .callcenter-img {
     /*align-items: center;*/
-    width: 900px;
+    width: 950px;
     height: 500px;
-    margin: auto;
+    margin: 30px;
+    margin-left: 220px;
     padding: 25px;
     right: 300px;
 }
 
 figcaption {
-     text-align: center;
+    /*text-align: left;*/
+    margin-top: -40px;
+    margin-left: 240px;
+
 }
 
 .support-button {
@@ -135,13 +143,19 @@ figcaption {
     background-color: #1C2B32;
     border-radius: 25px 25px 25px 25px;
     margin: 15px;
+    margin-left: 240px;
     padding: 15px;
 }
 
 
 /*///////////// 3.4 Faq /////////////*/
 
+details {
+    margin-left: 240px;
+}
+
 details[open] {
+    margin-left: 240px;
     padding: 5px;
 }
 
